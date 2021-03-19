@@ -25,6 +25,6 @@ byeSpeaker.speak = function (name) {
 // 'byeSpeaker' on the global scope as well.
 // xxxx.xxxx = byeSpeaker;
 
-window.byeSpeaker = byeSpeaker;
+window.byeSpeaker = byeSpeaker; //Exposing the 'helloSpeaker' object, and placing it into the window object. 
 
-})(window);
+})(window); //Exposing the function to the global context.
